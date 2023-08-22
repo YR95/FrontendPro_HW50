@@ -1,0 +1,123 @@
+body {
+  font-family: 'Victor Mono', monospace;
+
+}
+
+@media (min-width: 1100px) {
+  h1 {
+    padding-left: 10%;
+    color: yellow;
+    font-size: 70px;
+  }
+
+  body {
+    background-color: lightskyblue;
+  }
+
+  .introblock {
+    display: flex;
+    flex-direction: row;
+    align-content: baseline;
+    justify-content: space-around;
+  }
+
+  .maninblock {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    background: lavenderblush;
+    margin: 20px;
+  }
+  .maninblock > * {
+    padding: 20px 20px;
+    font-size: 50px;
+    font-weight: 700;
+    color: cornflowerblue;
+    border-radius: 30px;
+    margin: 10px;
+  }
+  .result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-size: 50px;
+    background: lightskyblue;
+  }
+  .result>img{
+    width: 250px;
+  }
+  .result>*{
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  body {
+    background-color: lightpink;
+  }
+
+  h1 {
+    color: green;
+    font-size: 80px;
+    text-align: center;
+  }
+
+  .introblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    border-radius: 40px;
+    box-shadow: 20px 15px 15px cornflowerblue;
+    width: 550px;
+  }
+
+  img:hover {
+    box-shadow: 40px 15px 15px palegreen;
+
+  }
+
+  .maninblock {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background: powderblue;
+    box-shadow: 20px 15px 15px lightgrey;
+
+  }
+
+  .maninblock > * {
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 300;
+    align-items: center;
+  }
+  input[type=button]{
+    background: lightskyblue;
+    width: 350px;
+    border-radius: 20px;
+    color: white;
+  }
+  .result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-size: 30px;
+    background: lavenderblush;
+  }
+
+}
+
+
+
+
+
